@@ -1,0 +1,22 @@
+
+#main {
+    background: #202020;
+    border: 2px solid grey;
+    border-radius: 40px;
+    width: 150px;
+    height: 350px;
+    margin: auto;
+}
+
+.light {
+    background-color: black;
+    border: 1px solid grey;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    margin-top: 7px;
+    margin-left: 24px;
+}
+#w{
+    display: -webkit-box;
+}

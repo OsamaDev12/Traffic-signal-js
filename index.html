@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Signal</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+</head>
+<body style="background-image: url(./img/highway-background-1.jpg);">
+    <div  class="container-sm" >
+
+        <div class="row p-4">
+            <div class="col">
+                <div class="p-1 h1  text-center  display-inline-block">
+                    <u>Traffic Signal</u>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="w" class=" justify-content-md-center">
+                <div class="col col-lg-2 ">
+                    <h1>Manually</h1>
+                    <p><button  onclick="changeRed()" type="button" class="btn btn-danger">Red</button></p>
+                    <p><button onclick="changeYellow()" type="button" class="btn btn-warning">Yellow</button></p>
+                    <p><button onclick="changeGreen()" type="button" class="btn btn-success">Green</button> </p>
+                </div>
+                <div id="main" class=" col-md-auto">
+                    <div id="red" class="light"></div>
+                    <div id="yellow" class="light"></div>
+                    <div id="green" class="light"></div>
+                </div>
+                <div  class="col col-lg-2 ">
+                    <h1>Automatically</h1>
+    
+                    <button onclick="btnN()" type="button" class="btn btn-success">Auto</button> 
+
+                </div>
+            <div></div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
